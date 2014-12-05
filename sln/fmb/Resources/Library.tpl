@@ -1,0 +1,1 @@
+﻿<p>The library has {$LIBSIZE} item(s).</p>

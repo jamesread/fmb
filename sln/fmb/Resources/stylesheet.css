@@ -1,0 +1,77 @@
+body {
+	margin: 1em;
+	padding: 1em;
+	font-family: Verdana;
+	font-size: 9pt;
+	line-height: 1.5;
+}
+ 
+h1 a {
+	font-size: 12pt;
+	color: black;
+	background-color: #99d9ea;
+	display: inline-box;
+	border: 1px solid black;
+	padding: .5em;
+}
+
+h2 {
+	font-size: 12pt;
+	margin: 0;
+	padding-top: 1em;
+}
+
+h3 {
+	font-size: 10pt;
+}
+ 
+a, a:active, .fakeLink { 
+	text-decoration: none;
+	color: blue;
+	cursor: pointer;
+}
+ 
+a:hover, .fakeLink:hover {
+	text-decoration: underline;
+}
+
+fieldset {
+	border: 0;
+	background-color: #efefef;
+}
+
+button, input {
+	font-family: Verdana;
+	font-size: 9pt }
+
+div#header {
+	text-align: center;
+}
+
+div#footer {
+	margin-top: 2em;
+	padding: 1em;
+	text-align: center;
+	border: 1px dashed #999;
+}
+
+button {
+	background-color: lightgreen;
+	border: 1px solid #999;
+	padding: .2em;
+} 
+
+button:hover {
+	background-color: greenyellow;
+}
+
+
+ul#navigation li {
+	display: inline;	
+	padding-right: 1em;
+}
+
+textarea {
+	min-height: 200px;
+	width: 100%; 
+}
