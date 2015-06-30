@@ -9,7 +9,9 @@ namespace fmb
     {
         public JsonGamesUpdater()
         {
-            new Thread(Run).Start(); 
+            Thread threadGamesUpdater = new Thread(Run);
+            threadGamesUpdater.Name = "gamesUpdater";
+            threadGamesUpdater.Start();
         }
 
         private String text = ""; 
